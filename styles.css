@@ -1,0 +1,61 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+p {
+    color: blue;
+    font-size: 18px;
+}
+
+/* Class Selector */
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+/* ID Selector */
+#unique {
+    color: green;
+    font-size: 22px;
+}
+
+/* Group Selector */
+h1, h2, h3 {
+    text-align: center;
+    color: purple;
+}
+
+/* Descendant Selector */
+div p {
+    color: orange;
+}
+
+/* Child Selector */
+div > p {
+    font-style: italic;
+}
+
+/* Adjacent Sibling Selector */
+h1 + p {
+    text-decoration: underline;
+}
+
+/* General Sibling Selector */
+h1 ~ p {
+    background-color: lightgray;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    border: 2px solid black;
+}
+
+/* Pseudo-class Selector */
+button:hover {
+    background-color: yellow;
+    color: black;
+}
